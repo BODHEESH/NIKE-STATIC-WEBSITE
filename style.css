@@ -1,0 +1,352 @@
+.mini-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 38px 0 36px;
+    position: relative;
+    background: #f5f5f5;
+    height: 36px;
+    width: 95%;
+    /* box-shadow: inset 0 -1px 0 0 #e5e5e5; */
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.jordan-logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+}
+.mini-header-text{
+    width: 66px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+.pre-logo-svg{
+    padding-left: 48px;
+    
+}
+.Nav-bar-content{
+    display: flex;
+    width: 462px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.Nav-bar-icons{
+    display: flex;
+}
+.Scrolling-navbar{
+    background: #f5f5f5;
+    margin: 0;
+    height: 59px;
+    text-align: center;
+
+}
+.Image-div-one{
+    position: relative;
+    background-image: url("1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 755px;
+    margin-left: 40px;
+    
+}
+.Div-one-content{
+    position: absolute;
+    width: 81%;
+    height: 45%;
+    
+    top: 412px;
+    left: 45px;
+}
+.Div-one-h{
+    font-size: 72px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -4px;
+
+}
+.Div-one-p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -26px;
+
+}
+.Div-one-button{
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    -webkit-box-pack: center;
+    
+    justify-content: center;
+    -webkit-box-align: center;
+    
+    align-items: center;
+    background: #fff;
+    color: #111;
+    height: 39px;
+    width: 74px;
+    
+}
+.buttondark{
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    -webkit-box-pack: center;
+    
+    justify-content: center;
+    -webkit-box-align: center;
+    
+    align-items: center;
+    background:#111 ;
+    color: #fff;
+    height: 39px;
+    width: 74px;
+
+}
+.Div-two{
+    display: flex;
+    
+    height: 700px;
+    padding-left: 40px;
+    
+}
+.Div-two-imageone{
+    position: relative;
+    background-image: url("2.webp");
+    width: 51%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+.Div-two-imagetwo{
+    position: relative;
+    background-image: url("3.webp");
+    width: 53%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    
+    
+
+}
+.Div-two-contentone{
+    position: absolute;
+    width: 48%;
+    bottom: 77px;
+    left: 44px;
+}
+
+.Div-two-contenttwo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Div-three{
+    display: flex;
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-evenly;
+    
+    
+}
+.div-three-one{
+    
+    
+    position: relative;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    
+}
+.div-three-two{
+    
+    position: relative;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+.div-three-three{
+    
+    position: relative;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+.div-three-content{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 68px;
+    left: 24px;
+    padding-left: 35px;
+       
+}
+.Div-one-button2{
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    -webkit-box-pack: center;
+    
+    justify-content: center;
+    -webkit-box-align: center;
+    
+    align-items: center;
+    background: #fff;
+    color: #111;
+    height: 41px;
+    width: 139px;
+
+}
+.Div-four{
+    display: flex;
+    
+    
+    width: 1450px;
+    height: 700px;
+    
+    justify-content: space-evenly;
+    padding-left: 39px;
+    
+    
+}
+.Div-Four-one{
+    position: relative;
+    width: 705.6px;
+    height: 700px;
+    
+}
+.Div-Four-two{
+    position: relative;
+    width: 705.6px;
+    height: 700px;
+   
+}
+.Div-four-content{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 68px;
+    left: 24px;
+    padding-left: 35px;
+}
+
+.Div-Four-one img{
+    position: absolute;
+    width: 705px;
+}
+
+.Div-Four-two img{
+    position: absolute;
+    width: 705px;
+}
+.Div-five{
+    padding: 0 44px;
+}
+.div-six{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Div-seven{
+    display: flex;
+    height: 590px;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px 40px;
+}
+.Div-seven-one{
+    width: 33%;
+    background-image:url("44.webp");
+    background-size: cover;
+    background-position: 15%;
+
+}
+.Div-seven-two{
+    width: 33%;
+    background-image:url("45.webp");
+    background-size: cover;
+    background-position: 15%;
+
+}
+.Div-seven-three{
+    width: 33%;
+    
+    background-image:url("46.webp");
+    background-size: cover;
+    background-position: 15%;
+
+}
+.Div-seven-content{
+    padding-top: 493px;
+    padding-left: 50px;
+    
+
+}
+ol,ul{
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 111px 320px;
+    gap: 103px;
+}
+li{
+    padding-top: 9px;
+}
+.footer-div{
+    width: 100%;
+    display: flex;
+    background-color: #111;
+}
+.footer{
+    width: 50%;
+    display: flex;
+    
+    background-color: #111;
+    color: #fff;
+    justify-content: space-evenly;
+}
+.footer-two li{
+    color: #7e7e7e;
+
+}
+.footer-three li{
+    color: #7e7e7e;
+
+}
+.footer-twotwo{
+    width: 50%;
+    color: #7e7e7e;
+}
+.social-link-icon{
+    fill: #7e7e7e;
+    transition: fill .2s; 
+}
